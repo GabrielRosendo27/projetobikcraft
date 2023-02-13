@@ -26,3 +26,6 @@
 /* Contato  */
 @import "./contato/contato.css";
 @import "./contato/lojas.css";
+
+/* Orçamento  */
+@import "./css/orçamento/orçamento.css";
