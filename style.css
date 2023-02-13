@@ -18,5 +18,7 @@
 @import "./css/bicicletas/bicicletas.css";
 /* Bicicletas html  */
 @import "./css/bicicleta/bicicletas.css";
+@import "./css/bicicleta/seguro.css";
+
 /* Termos */
 @import "./css/termos/termos.css";
