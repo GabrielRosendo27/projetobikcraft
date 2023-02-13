@@ -9,10 +9,14 @@
 @import "./css/home/parceiros.css";
 @import "./css/home/depoimento.css";
 @import "/css/home/seguros.css";
+@import "./css/home/vantagens.css";
+@import "./css/home/perguntas.css";
 /* Utilidades */
 @import "./css/utilidades/componentes.css";
 /* Bicicletas */
 @import "./css/bicicletas/bicicletas-lista.css";
 @import "./css/bicicletas/bicicletas.css";
+/* Bicicletas html  */
+@import "./css/bicicleta/bicicletas.css";
 /* Termos */
 @import "./css/termos/termos.css";
