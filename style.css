@@ -13,7 +13,7 @@
 @import "./css/home/perguntas.css";
 /* Utilidades */
 @import "./css/utilidades/componentes.css";
-@import "./contato/formulario.css";
+@import "./css/utilidades/formulario.css";
 /* Bicicletas */
 @import "./css/bicicletas/bicicletas-lista.css";
 @import "./css/bicicletas/bicicletas.css";
