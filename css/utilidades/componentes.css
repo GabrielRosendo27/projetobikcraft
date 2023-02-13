@@ -28,6 +28,22 @@
 .botao:hover {
   background: linear-gradient(#ffbf60 0%, #e59317);
 }
+.botao.seta {
+  display: flex;
+  align-items: center;
+}
+.botao.seta:hover::after {
+  transform: translateX(4px);
+  transition: transform 0.2s;
+}
+.botao.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(../../img/icones/seta.svg);
+}
 
 .link {
   display: inline-block;

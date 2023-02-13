@@ -13,5 +13,6 @@
 @import "./css/utilidades/componentes.css";
 /* Bicicletas */
 @import "./css/bicicletas/bicicletas-lista.css";
+@import "./css/bicicletas/bicicletas.css";
 /* Termos */
 @import "./css/termos/termos.css";
