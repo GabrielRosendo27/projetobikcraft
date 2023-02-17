@@ -5,7 +5,7 @@ function Clique(e) {
   const href = e.href;
   const url = document.location.href;
 
-  if (href.includes(url)) {
+  if (url.includes(href)) {
     e.classList.add("ativo");
   }
 }
