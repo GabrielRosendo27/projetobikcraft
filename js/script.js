@@ -4,10 +4,12 @@ const linksMenu = document.querySelectorAll(".header-menu li a");
 function Clique(e) {
   const href = e.href;
   const url = document.location.href;
+
   if (href.includes(url)) {
     e.classList.add("ativo");
   }
 }
+
 linksMenu.forEach(Clique);
 
 // Ativar itens do orçamento
@@ -58,3 +60,8 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria);
+
+// Plugin Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
